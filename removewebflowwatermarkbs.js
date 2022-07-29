@@ -7996,13 +7996,13 @@
                 }
                 
                 function createBadge() {
-                    var $brand = $('<a class="w-webflow-badge"></a>').attr('href', '');
-                    var $logoArt = $('<img>').attr('src', '').attr('alt', '').css({
+                    var $brand = $('').attr('href', '');
+                    var $logoArt = $('').attr('src', '').attr('alt', '').css({
                         marginRight: '0px',
                         width: '0px'
                     });
-                    var $logoText = $('<img>').attr('src', '').attr('alt', '');
-                    $brand.append($logoArt, $logoText);
+                    var $logoText = $('').attr('src', '').attr('alt', '');
+                    $brand.append(null, null);
                     return $brand[0];
                 }
                 
