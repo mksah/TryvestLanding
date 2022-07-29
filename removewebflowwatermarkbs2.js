@@ -7998,10 +7998,10 @@
                 function createBadge() {
                     var $brand = $('<a class="w-webflow-badge"></a>').attr('href', '');
                     var $logoArt = $('<img>').attr('src', '').attr('alt', '').css({
-                        marginRight: '8px',
-                        width: '16px'
+                        marginRight: '0px',
+                        width: '0px'
                     });
-                    var $logoText = $('<img>').attr('src', '').attr('alt', 'Made in Webflow');
+                    var $logoText = $('<img>').attr('src', '').attr('alt', '');
                     $brand.append($logoArt, $logoText);
                     return $brand[0];
                 }
