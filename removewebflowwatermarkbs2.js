@@ -7994,7 +7994,7 @@
                     var fullScreen = doc.fullScreen || doc.mozFullScreen || doc.webkitIsFullScreen || doc.msFullscreenElement || Boolean(doc.webkitFullscreenElement);
                     $(brandElement).attr('style', fullScreen ? 'display: none !important;' : '');
                 }
-
+                /**
                 function createBadge() {
                     var $brand = $('<a class="w-webflow-badge"></a>').attr('href', 'https://webflow.com?utm_campaign=brandjs');
                     var $logoArt = $('<img>').attr('src', 'https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg').attr('alt', '').css({
@@ -8005,7 +8005,7 @@
                     $brand.append($logoArt, $logoText);
                     return $brand[0];
                 }
-
+                 **/
                 function ensureBrand() {
                     var found = $body.children(namespace);
                     var match = found.length && found.get(0) === brandElement;
